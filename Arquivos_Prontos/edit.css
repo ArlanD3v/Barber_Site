@@ -1,0 +1,132 @@
+header{
+	background: #070606;
+	padding: 20px
+}
+
+nav li{
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+.cubo{
+	width:940px;
+	margin: 0 auto;
+}
+
+nav{
+	position:absolute;
+	top:120px;
+	right:15%;
+}
+
+nav a{
+	text-transform: uppercase;
+	color:#FFFFFF;
+	font-weight: bold;
+	font-size: 15px;
+	text-decoration: none;
+	border: 2px white solid;
+	border-radius: 10px;
+	padding:12px;
+}
+
+nav a:hover{
+	color:#64E9A9;
+	border-color:#e2ff00;
+
+}
+
+.titulo-principal{
+	color:#40F85E;
+	padding:auto;
+	text-align:center;
+	font-style: oblique;
+	font-weight: bold;
+	margin: 5px;
+	font-size:35px;
+	position:absolute;
+	margin-left:26%
+}
+
+
+#logobranco{
+	margin:none;
+	padding:0px;
+}
+
+#banner{
+	width: 650px;
+}
+
+#barbeiro{
+	width: 650px;
+	height:243px;
+}
+
+.texto-centralizado{
+    text-align: center;
+	font-style:oblique;
+	font-size:x-large;
+	color:#00c4f1;
+	padding:19px;
+}
+
+.texto-centralizado h2{
+	margin: 15px;
+}
+p{
+	text-align: center;
+	color:black;
+}
+
+#principal{
+
+}
+
+#missao{
+	font-size: 20px;
+	color:#1100EC;
+    font-weight: bolder;
+    padding:10px;
+}
+
+em strong{
+	color:#12e235;
+	font-style:oblique;
+	font-size:xx-large;
+	font-size:20px;
+}
+
+.itens{
+	font-style: italic;
+	color:#fdfdfd;
+	margin-left:auto;
+	text-align:center;
+
+}
+.beneficios{
+	background:#141513;
+	margin-top:10px;
+    position:relative;
+    height:250px;
+}
+
+.imgbeneficio{
+   width:180px;
+    
+}
+
+#copyright{
+	text-align: center;
+	margin-bottom:-225px;
+	background-color:white;
+	height:250px;
+}
+
+.Copyright{
+	color:#09050a;
+	margin:-5px;
+	padding-bottom:none;
+	background-color:white
+}
+
