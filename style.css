@@ -1,8 +1,15 @@
-p{
-    text-align: center;
-    
-}
 body{
-    background-color: blueviolet;
-    background:;
+background:gray;
+}
+
+h2{
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+.missao b{
+   color: blue;
+   font-weight:bolder;
+   
 }
