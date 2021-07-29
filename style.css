@@ -1,15 +1,20 @@
 body{
 background:gray;
 }
-
-h2{
+#banner{
+    width: 100%;
+}
+.titulos{
     font-size: 30px;
     font-family: 'Dancing Script', cursive;
 
 }
-
 .missao b{
    color: blue;
    font-weight:bolder;
-   
+   font-style: italic;  
+}
+.itens{
+    font-style: italic;
+
 }
