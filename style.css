@@ -1,14 +1,23 @@
 body{
-background:gray;
+
 }
 #banner{
     width: 100%;
 }
-.titulos{
+.principal{
+    background:gray;
+    padding: 25px;
+}
+.titulo{
     font-size: 30px;
     font-family: 'Dancing Script', cursive;
+    text-align: center;
 
 }
+h1:hover{
+    color: rgb(0, 183, 255);
+    transform: scale(1.2);
+    transition: 3s;
 .missao b{
    color: blue;
    font-weight:bolder;
@@ -17,4 +26,23 @@ background:gray;
 .itens{
     font-style: italic;
 
+}
+.beneficios{
+    font-family: 'Dancing Script', cursive;
+    background-color: white;
+    
+    
+}
+h3{
+    text-align: center;
+    font-size: 2rem;
+}
+ul{
+    display:inline-block;
+    vertical-align:top;
+  
+}
+#beneficioImg{
+    width: 50%;
+    
 }
