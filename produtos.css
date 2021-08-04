@@ -2,6 +2,9 @@ header{
     background:gray;
     padding: 20px 0;
 }
+li a{
+    font-family:'Dancing Script', cursive;
+}
 .caixa{
     position: relative;
     width: 940px;
@@ -18,12 +21,12 @@ nav li{
 }
 nav a{
     text-transform: uppercase;
-    padding: 10px;
-    color: black;
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight:bold;
     font-size: 22px;
-    transition: 1.5s;
+    transition: 1s;
 }
 nav a:hover{
     color:aqua;
