@@ -2,6 +2,10 @@ header{
     background:gray;
     padding: 20px 0;
 }
+main{
+    background-image: url(img/bg.jpg);
+    
+}
 li a{
     font-family:'Dancing Script', cursive;
 }
@@ -26,8 +30,69 @@ nav a{
     text-decoration: none;
     font-weight:bold;
     font-size: 22px;
-    transition: 1s;
+    
 }
 nav a:hover{
-    color:aqua;
+    color:aqua;   
+}
+
+.produtos{
+    width: 960px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.produtos li{
+    cursor:pointer;
+    display: inline-block;
+    text-align: center;
+    width:30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    color: aqua;
+    border: 2px solid rgb(0, 247, 255);
+    border-radius: 50px 10px 50px 10px;
+    background-color: rgb(0, 0, 0);
+    
+}
+.produtos li:hover{
+    border-color: rgb(255, 255, 255);
+    
+}
+.produtos li:hover h2{
+    font-size: 35px;
+    
+}
+.produtos li:active{
+    border-color:rgb(60, 255, 0);
+}
+.produtos h2{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Patrick Hand', cursive;
+}
+h2:hover{
+    color:rgb(0, 250, 196);
+}
+.img-produto{
+    filter: invert(100%);
+}
+.produto-descricao{
+    font-size:22px;  
+    color: rgb(255, 255, 255);
+    font-family: 'Lobster', cursive;
+}
+
+.produto-preco{
+    font-size: 26px;
+    font-weight: bold;
+    margin: 10px 0 0;
+    font-family: 'Source Code Pro', monospace;
+}
+
+footer{
+    text-align: center;
+    background: url('img/bg.jpg');
+    padding: 40px 0;
 }
