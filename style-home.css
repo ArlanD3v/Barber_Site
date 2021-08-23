@@ -99,58 +99,6 @@ h3{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 footer{
     text-align: center;
     background: url('img/bg.jpg');
@@ -163,6 +111,5 @@ footer{
 .Copyright{
     color: white;
     font-size: 13px;
-    margin: 20px 0 0;
     padding: 20px;
 }

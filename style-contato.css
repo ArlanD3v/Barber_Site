@@ -7,9 +7,6 @@ header{
     border:5px solid gray;
     border-radius:0 400px;
 }
-main{
-    
-}    
 li a{
     font-family:'Dancing Script', cursive;
 }
@@ -28,46 +25,40 @@ nav li{
     margin: 0 0 0 15px;
 }
 nav a{
+
     text-transform: uppercase;
     text-shadow: rgb(0, 0, 0) 1px 0 10px;
     color: rgb(10 10 10);
     text-decoration: none;
     font-weight:bold;
     font-size: 22px;
-    
 }
 nav a:hover{
-    color:white;   
+    color:white;
 }
 
 
+main{
+    width: 940px;
+    margin: 0 auto;
+    
+}    
+form{
+    margin: 40px 0;
 
+}
+form label, form p{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
+.input-padrao{
+    display:block ;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
 
 
 
@@ -92,6 +83,5 @@ footer{
 .Copyright{
     color: white;
     font-size: 13px;
-    margin: 20px 0 0;
     padding: 20px;
 }
